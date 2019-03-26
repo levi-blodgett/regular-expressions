@@ -20,7 +20,7 @@ result = re.test('hello');
 result = re.test('Hello'); // Uppercase vs lowercase DOES matter... unless you use an i flag on the variable itself
 console.log(result);
 
-// match() - Return result array or null
+// match() - Return result array or null, can return all matches if you use the g flag in the regex
 let str = 'Levi Hello There';
 result = str.match(re);
 console.log(result);
